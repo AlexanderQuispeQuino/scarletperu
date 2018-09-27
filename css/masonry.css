@@ -1,0 +1,193 @@
+/**,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #6b7381;
+  background: #f2f2f2;
+}
+a {
+  color: #aaa;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: #333;
+}
+h2 {
+  color: #4e88ae;
+  font-weight: 400;
+  text-align: center;
+}
+img {
+  border: 0;
+  display: block;
+}
+.entry {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: -10px 10px 10px -10px rgba(0, 0, 0, 0.35),
+    -10px 10px 0 -3px rgba(0, 0, 0, 0.2);
+  margin: 10px auto 20px;
+  max-width: 800px;
+  overflow: hidden;
+  padding: 20px 40px;
+  position: relative;
+  text-align: center;
+}
+.entry > p {
+  padding: 20px 0 10px;
+}
+.entry > .grid {
+  margin: 20px auto 0px;
+}
+.entry > .grid > .item {
+  width: 50%;
+}
+.grid {
+  max-width: 69em;
+  list-style: none;
+  margin: 30px auto;
+  padding: 1;
+}
+.grid .item {
+  display: block;
+  float: left;
+  padding: 2px;
+  width: 33%;
+  opacity: 1;
+}
+.grid .item a,
+.grid .item img {
+  outline: none;
+  border: none;
+  display: block;
+  max-width: 100%;
+}
+.grid.effect-2 .item.animate {
+  -webkit-transform: translateY(200px);
+  transform: translateY(200px);
+  -webkit-animation: moveUp 0.65s ease forwards;
+  animation: moveUp 0.65s ease forwards;
+}
+
+@-webkit-keyframes moveUp {
+  0% {
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 900px) {
+  .grid .item {
+    width: 50%;
+  }
+  .entry {
+    box-shadow: none;
+  }
+  .entry > .grid > .item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .grid .item {
+    width: 100%;
+  }
+  .entry {
+    padding: 20px 0;
+  }
+  .entry > p {
+    padding: 10px;
+  }
+  .entry > .grid > .item {
+    width: 100%;
+  }
+}
+*/
+
+
+@import "compass/css3";
+
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+
+article {
+ -moz-column-width: 13em;
+ -webkit-column-width: 13em;
+ -moz-column-gap: 1em;
+ -webkit-column-gap: 1em; 
+  
+}
+
+section {
+ display: inline-block;
+ margin:  0.25rem;
+ padding:  1rem;
+ width:  100%; 
+ background:  #efefef;
+}
+
+
+p {
+ margin:  1rem 0; 
+}
+
+
+
+
+/*  styles for background color, etc; not necessary for this thing to work  */
+
+
+
+body {
+/* padding:  1em;*/
+ font-family:  "Garamond", serif; 
+}
+
+
+
+
+h1 {
+  font-size:  3rem;
+  font-weight:  800;
+}
+
+body {
+  line-height:  1.25;
+}
+
+
+p {
+ text-align:  left;
+}

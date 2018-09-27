@@ -1,0 +1,13 @@
+@media screen and (max-width: 500px) {
+	.container-nosotros {
+    	margin: 20px 20px 0px;
+	}
+	
+	.info-nosotros p, .info-mision p, .info-vision p{
+		font-size: 14px;
+	}
+
+	.container-mision-vision {
+    	display: block;
+	}
+}
